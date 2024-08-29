@@ -32,7 +32,7 @@ public class BaseTest {
 	
 	@AfterTest
 	public void tearDown() throws InterruptedException {
-		Thread.sleep(6000);
+		Thread.sleep(5000);
 		page.context().browser().close();
 	}
 }
