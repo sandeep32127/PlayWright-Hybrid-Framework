@@ -19,7 +19,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/sandeep32127/PlayWright-Hybrid-Framework'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testRunners/testNgTestsSeleniumGrid.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testRunners/testNgTestsSeleniumGrid.xml"
                     
                 }
             }
