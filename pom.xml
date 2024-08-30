@@ -58,7 +58,8 @@
         <version>3.4.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testRunners/testNgTestsSeleniumGrid.xml</suiteXmlFile>
+            <!--<suiteXmlFile>src/test/resources/testRunners/testNgTestsSeleniumGrid.xml</suiteXmlFile>-->
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
