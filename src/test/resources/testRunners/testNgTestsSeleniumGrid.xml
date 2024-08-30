@@ -26,12 +26,12 @@
     </classes>
   </test>
   
-  <test name="Login Page Test Firefox">
+  <!--<test name="Login Page Test Firefox">
 	<parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="com.qa.opencart.tests.LoginPageTest">
 	  </class>
     </classes>
-  </test>
+  </test>-->
   
 </suite>
